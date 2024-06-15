@@ -209,6 +209,54 @@
         }
       }
     },
+    "bitwarden-cli@2024.2.1": {
+      "last_modified": "2024-04-15T22:11:55Z",
+      "resolved": "github:NixOS/nixpkgs/2b80ce7707aedcb79be09e412b6dd6c15c578ab2#bitwarden-cli",
+      "source": "devbox-search",
+      "version": "2024.2.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rx54sy4dnn9w5gp6w6p3y9i0dwwdifw2-bitwarden-cli-2024.2.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rx54sy4dnn9w5gp6w6p3y9i0dwwdifw2-bitwarden-cli-2024.2.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gicif0zy3rzpwfiwr4qy4s2m9k44fhzj-bitwarden-cli-2024.2.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gicif0zy3rzpwfiwr4qy4s2m9k44fhzj-bitwarden-cli-2024.2.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rgc3qkc7a0alyl064sxlwwxxm89da36f-bitwarden-cli-2024.2.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rgc3qkc7a0alyl064sxlwwxxm89da36f-bitwarden-cli-2024.2.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7fyy6ma8wvgd1am3mf4k10kdxvz7qkj8-bitwarden-cli-2024.2.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7fyy6ma8wvgd1am3mf4k10kdxvz7qkj8-bitwarden-cli-2024.2.1"
+        }
+      }
+    },
     "btop@latest": {
       "last_modified": "2024-05-22T06:18:38Z",
       "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#btop",
