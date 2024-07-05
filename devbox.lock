@@ -1277,6 +1277,54 @@
         }
       }
     },
+    "nodePackages.eslint@latest": {
+      "last_modified": "2024-06-12T20:55:33Z",
+      "resolved": "github:NixOS/nixpkgs/a9858885e197f984d92d7fe64e9fff6b2e488d40#nodePackages.eslint",
+      "source": "devbox-search",
+      "version": "9.4.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5a48bsb5qnsy0w936y2bxbmvmck9n26d-eslint-9.4.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5a48bsb5qnsy0w936y2bxbmvmck9n26d-eslint-9.4.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6n5sbd7rnzbd04304xrl1219xb5vm9mh-eslint-9.4.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6n5sbd7rnzbd04304xrl1219xb5vm9mh-eslint-9.4.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/l8h417k6kmsbacb897nplm49ksd47bx2-eslint-9.4.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/l8h417k6kmsbacb897nplm49ksd47bx2-eslint-9.4.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2wi6spdsk5kyw2rqrisxqh15bqy38d5x-eslint-9.4.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2wi6spdsk5kyw2rqrisxqh15bqy38d5x-eslint-9.4.0"
+        }
+      }
+    },
     "nodejs@latest": {
       "last_modified": "2024-05-22T06:18:38Z",
       "plugin_version": "0.0.2",

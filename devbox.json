@@ -35,7 +35,8 @@
     "kubectl@latest",
     "kubectl-ktop@latest",
     "wakeonlan@latest",
-    "bitwarden-cli@2024.2.1"
+    "bitwarden-cli@2024.2.1",
+    "nodePackages.eslint@latest"
   ],
   "env": {
     "DEVBOX_GLOBAL_PREFIX": "$HOME/.local/share/devbox/global/default/.devbox/nix/profile/default",
