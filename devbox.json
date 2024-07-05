@@ -36,11 +36,12 @@
     "kubectl-ktop@latest",
     "wakeonlan@latest",
     "bitwarden-cli@2024.2.1",
-    "nodePackages.eslint@latest"
+    "nodePackages.eslint@latest",
+    "go@latest"
   ],
   "env": {
     "DEVBOX_GLOBAL_PREFIX": "$HOME/.local/share/devbox/global/default/.devbox/nix/profile/default",
-    "DEVBOX_GLOBAL_ROOT": "$HOME/.local/share/devbox/global/current"
+    "DEVBOX_GLOBAL_ROOT":   "$HOME/.local/share/devbox/global/current"
   },
   "shell": {
     "init_hook": [". ${DEVBOX_GLOBAL_ROOT}/init.sh"],
