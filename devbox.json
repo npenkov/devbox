@@ -76,6 +76,9 @@
         "grep -qF '.npm-packages' ~/.zshrc || echo 'export PATH=$PATH:~/.npm-packages/bin' >> ~/.zshrc",
         "grep -qF '.npm-packages' ~/.bashrc || echo 'export PATH=$PATH:~/.npm-packages/bin' >> ~/.bashrc",
         "mkdir -p ~/.npm-packages"
+      ],
+      "nvim-init": [
+        "git clone https://github.com/npenkov/lazyvim.lua ~/.config/nvim"
       ]
     }
   },
