@@ -633,6 +633,54 @@
         }
       }
     },
+    "git-crypt@latest": {
+      "last_modified": "2024-07-07T07:43:47Z",
+      "resolved": "github:NixOS/nixpkgs/b60793b86201040d9dee019a05089a9150d08b5b#git-crypt",
+      "source": "devbox-search",
+      "version": "0.7.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pbxr35p3a80a8py4ljic1hrmpshzjr2f-git-crypt-0.7.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pbxr35p3a80a8py4ljic1hrmpshzjr2f-git-crypt-0.7.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wb4zkf72r2ddp4hpkqh802hshq0crd4q-git-crypt-0.7.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wb4zkf72r2ddp4hpkqh802hshq0crd4q-git-crypt-0.7.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8drzhm50nyf5y165aa4w3h7l6iyjsg1d-git-crypt-0.7.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8drzhm50nyf5y165aa4w3h7l6iyjsg1d-git-crypt-0.7.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1wkan95dr7yxdxpwir0ia96v2mdrnsbn-git-crypt-0.7.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1wkan95dr7yxdxpwir0ia96v2mdrnsbn-git-crypt-0.7.0"
+        }
+      }
+    },
     "git@latest": {
       "last_modified": "2024-05-22T06:18:38Z",
       "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#git",
@@ -702,54 +750,6 @@
             }
           ],
           "store_path": "/nix/store/jxjzgz1p0hdqsg8k17ivw5mgcd6ffx9c-git-2.44.1"
-        }
-      }
-    },
-    "go@latest": {
-      "last_modified": "2024-06-12T20:55:33Z",
-      "resolved": "github:NixOS/nixpkgs/a9858885e197f984d92d7fe64e9fff6b2e488d40#go",
-      "source": "devbox-search",
-      "version": "1.22.3",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/m4ip3yyqg4k2pilbyfczgiy8xqvh4554-go-1.22.3",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/m4ip3yyqg4k2pilbyfczgiy8xqvh4554-go-1.22.3"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/iz2bp36nbgp2l7day14186nmw2v4v0qg-go-1.22.3",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/iz2bp36nbgp2l7day14186nmw2v4v0qg-go-1.22.3"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/gl1vr9lznqg5zv2f0bvh0q469k82mjz0-go-1.22.3",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/gl1vr9lznqg5zv2f0bvh0q469k82mjz0-go-1.22.3"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/vz8d6wmfcf38l3h3vymwqr6c5zxp5jmp-go-1.22.3",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/vz8d6wmfcf38l3h3vymwqr6c5zxp5jmp-go-1.22.3"
         }
       }
     },
@@ -1595,54 +1595,6 @@
             }
           ],
           "store_path": "/nix/store/hlxw36slhdi0n3grw537z73b9i8fdrdk-python3.11-sdkmanager-0.6.7"
-        }
-      }
-    },
-    "terraform@1.7.5": {
-      "last_modified": "2024-04-12T01:05:08Z",
-      "resolved": "github:NixOS/nixpkgs/a0c9e3aee1000ac2bfb0e5b98c94c946a5d180a9#terraform",
-      "source": "devbox-search",
-      "version": "1.7.5",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/rcw8kkbzglha3pl5c5vq7m0ibwg8aray-terraform-1.7.5",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/rcw8kkbzglha3pl5c5vq7m0ibwg8aray-terraform-1.7.5"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/hngdkd0fx0nib0ffzvi9d7am2a6il03c-terraform-1.7.5",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/hngdkd0fx0nib0ffzvi9d7am2a6il03c-terraform-1.7.5"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/n8ls8ay5x5d0w6yhkvgs95alp1xsahw8-terraform-1.7.5",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/n8ls8ay5x5d0w6yhkvgs95alp1xsahw8-terraform-1.7.5"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/hw28x4rxv69wl00lcq3xmq0zjcywyhcy-terraform-1.7.5",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/hw28x4rxv69wl00lcq3xmq0zjcywyhcy-terraform-1.7.5"
         }
       }
     },
